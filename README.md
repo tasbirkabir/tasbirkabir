@@ -1,4 +1,4 @@
-<h1 align="center">💫 Tasbir Kabir</h1>
+<h1 align="center"> Tasbir Kabir</h1>
 <p align="center">
   <strong>AI Growth Architect • Automation Engineer • Conversion Developer</strong>
 </p>
