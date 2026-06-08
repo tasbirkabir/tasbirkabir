@@ -1,13 +1,13 @@
-<h1 align="center"> Tasbir Kabir</h1>
+<h1 align="center">💫 Tasbir Kabir</h1>
 <p align="center">
   <strong>AI Growth Architect • Automation Engineer • Conversion Developer</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tasbirrkabir/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/tasbirrkabir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:tasbir777x@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://x.com/tasbirrkabir"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://www.behance.net/tasbirkabir"><img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" /></a>
+  <a href="https://x.com/tasbirrkabir" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.behance.net/tasbirkabir" target="_blank"><img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" /></a>
 </p>
 
 <p align="center">
@@ -18,6 +18,9 @@
 
 ### 🌐 Overview
 I bridge the gap between advanced engineering and business growth. My career evolved from deep WordPress engineering into architecting end-to-end **AI-driven growth ecosystems, intelligent agent workflows, and high-converting digital platforms.**
+
+<p align="center">
+  <sub>Built with precision. Driven by Intelligence. ⚡</sub>
 ---
 
 ### ⚡ What I Do
@@ -37,17 +40,17 @@ I bridge the gap between advanced engineering and business growth. My career evo
   <tr>
     <td width="50%" valign="top">
       <h4>⚙️ Core Languages & Automation</h4>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS" />
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
     </td>
     <td width="50%" valign="top">
       <h4>☁️ Cloud & Architecture</h4>
-      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testing-library&logoColor=white" />
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="GCP" />
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testing-library&logoColor=white" alt="Testing" />
     </td>
   </tr>
 </table>
@@ -57,30 +60,29 @@ I bridge the gap between advanced engineering and business growth. My career evo
 ### 📊 Performance Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=tasbirkabir&theme=great-gatsby&hide_border=false&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=tasbirkabir&theme=great-gatsby&hide_border=false&include_all_commits=true&layout=compact" width="49%" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api?username=tasbirkabir&theme=radical&hide_border=false&include_all_commits=true&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=tasbirkabir&theme=radical&hide_border=false&include_all_commits=true&layout=compact" width="49%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=tasbirkabir&theme=great-gatsby&hide_border=false" width="98%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=tasbirkabir&theme=radical&hide_border=false" width="98%" alt="GitHub Streak" />
 </p>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=tasbirkabir&theme=radical&no-frame=false&no-bg=true&margin-w=4" width="100%" alt="Trophies" />
 </p>
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://github-contributor-stats.vercel.app/api?username=tasbirkabir&limit=5&theme=dark&combine_all_yearly_contributions=true" width="95%" />
-    </td>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="95%" />
-    </td>
-  </tr>
-</table>
+---
+
+### 📈 Contributions & Insights
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=tasbirkabir&limit=5&theme=radical&combine_all_yearly_contributions=true" width="49%" alt="Contributor Stats" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="49%" alt="Dev Quote" />
+</p>
 
 ---
 
 <p align="center">
   <sub>Built with precision. Driven by Intelligence. ⚡</sub>
+</p>
