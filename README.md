@@ -1,64 +1,82 @@
-<!-- ========================= -->
-
-<!--        TASBIR KABIR       -->
-
-<!-- ========================= -->
+<!--
+  TASBIR KABIR — GitHub Profile README
+  Neo-Brutalist / personal builder identity
+-->
 
 <a id="top"></a>
 
 <div align="center">
 
-  <h1>TASBIR KABIR</h1>
+<img
+ src="./assets/tasbir-neo-brutalist-animated-banner.gif"
+ width="100%"
+ alt="Tasbir Kabir — Entrepreneur and AI Builder"
+/>
+
+<br><br>
 
   <p>
     <strong>Entrepreneur | Building AI-native SaaS with Agentic Engineering.</strong>
   </p>
 
   <p>
-    I build software products, experiment with emerging AI capabilities,
-    and explore how agentic engineering can change the way software gets built.
+    Building software products, experimenting with emerging AI capabilities,
+    and exploring new ways to build with agents, automation, and intelligent systems.
   </p>
 
   <p>
     <a href="https://github.com/tasbirkabir">
       <img src="https://img.shields.io/badge/GitHub-101010?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
     </a>
-    <a href="LINKEDIN_URL">
-      <img src="https://img.shields.io/badge/LinkedIn-101010?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
   </p>
 
 </div>
 
-01 / IDENTITY
+01 / ABOUT
 
-Entrepreneur | Building AI-native SaaS with Agentic Engineering.
+I'm an entrepreneur and builder focused on AI-native SaaS and the emerging
+discipline of agentic engineering.
 
-I like turning ideas into working software.
+I like turning ideas into working software, testing them against reality, and
+iterating toward products that create real leverage.
 
-My interests sit at the intersection of AI, SaaS, automation, product engineering, and intelligent systems — especially where new AI capabilities can create better ways to build and operate software.
+My work sits around:
 
-I care about shipping useful things, learning from real usage, and improving the system after it exists.
+AI-native products
+
+Agentic engineering
+
+SaaS
+
+Automation
+
+Intelligent software systems
+
+Developer tooling
+
+Product experimentation
+
+Build → Ship → Learn → Compound
 
 02 / WHAT I BUILD
 
 <table>
   <tr>
     <td width="25%" valign="top">
-      <strong>AI-NATIVE SAAS</strong><br><br>
-      Products where AI is part of the core workflow, not just an add-on.
+      <h3>AI-NATIVE SAAS</h3>
+      Products where AI is part of the core workflow.
     </td>
     <td width="25%" valign="top">
-      <strong>AGENTIC ENGINEERING</strong><br><br>
-      Experiments around AI agents, execution loops, automation, and AI-assisted development.
+      <h3>AGENTIC SYSTEMS</h3>
+      Agents, execution loops, automation, and AI-assisted development.
     </td>
     <td width="25%" valign="top">
-      <strong>PRODUCT SYSTEMS</strong><br><br>
-      Software shaped around real workflows, useful interfaces, and measurable outcomes.
+      <h3>PRODUCT SYSTEMS</h3>
+      Software built around useful workflows and real problems.
     </td>
     <td width="25%" valign="top">
-      <strong>EXPERIMENTS</strong><br><br>
-      Small ideas, prototypes, and technical experiments that can earn the right to become products.
+      <h3>EXPERIMENTS</h3>
+      Prototypes and ideas that can earn the right to become products.
     </td>
   </tr>
 </table>
@@ -71,25 +89,26 @@ AI visibility & discovery intelligence
 
 "See What AI Sees."
 
-A product direction exploring how brands, entities, and information surface across generative AI systems.
+A product direction exploring how brands, entities, and information surface
+across generative AI systems.
 
-AI · GEO · Discovery Intelligence
+AI GEO Discovery Intelligence
 
 Interakt
 
 Product / AI / software project
 
-One of my product-building projects. The public description will stay intentionally concise until the latest positioning is finalized.
+Part of my broader product-building work around software, AI, and interaction.
 
-PRODUCT · AI · BUILDING
+PRODUCT AI BUILDING
 
 Daymark
 
 Software / product project
 
-Another project in my broader product-building work.
+Another project in my wider portfolio of product experiments and software work.
 
-PRODUCT · SOFTWARE · EXPERIMENT
+PRODUCT SOFTWARE EXPERIMENT
 
 04 / CURRENTLY
 
@@ -111,7 +130,7 @@ AI systems, automation, developer tooling
 
 THINKING ABOUT
 
-How AI changes software creation and product development
+Better ways to build software with AI
 
 05 / STACK
 
@@ -127,17 +146,15 @@ ENGINEERING
 
 Automation · Backend systems · Developer tooling
 
-The stack will evolve with the products I build.
+My stack evolves with the products I build.
 
 06 / BUILDER PHILOSOPHY
 
 <div align="center">
 
-BUILD → SHIP → LEARN → COMPOUND
+BUILD THE THING.
 
-Build the smallest useful version.
-
-Ship it.
+Ship the smallest useful version.
 
 Learn from reality.
 
@@ -151,6 +168,7 @@ Then make the next version better than the last.
 
 <a href="https://github.com/tasbirkabir">
   <img
+    height="180"
     src="https://github-readme-stats.vercel.app/api?username=tasbirkabir&show_icons=true&hide_border=true&bg_color=00000000&title_color=101010&text_color=555555&icon_color=ff4d00"
     alt="Tasbir Kabir's GitHub stats"
   />
@@ -158,6 +176,7 @@ Then make the next version better than the last.
 
 <a href="https://github.com/tasbirkabir">
   <img
+    height="180"
     src="https://streak-stats.demolab.com?user=tasbirkabir&hide_border=true&background=00000000&ring=ff4d00&fire=ff4d00&currStreakLabel=101010&sideLabels=555555&dates=777777"
     alt="Tasbir Kabir's GitHub streak"
   />
@@ -170,14 +189,29 @@ Then make the next version better than the last.
 <div align="center">
 
 <a href="https://github.com/tasbirkabir">
-  <img src="https://img.shields.io/badge/GITHUB-%40tasbirkabir-101010?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-
-<a href="LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-101010?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <img
+    src="https://img.shields.io/badge/GITHUB-@tasbirkabir-101010?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
 </a>
 
 </div>
+
+LinkedIn / portfolio can be added once the exact URLs are ready.
+
+<details>
+<summary><strong>01 / A LITTLE MORE</strong></summary>
+
+<br>
+
+I'm interested in the gap between what AI can do today and
+what software products can become when AI is treated as a core system
+primitive.
+
+That means experimenting, shipping, breaking things, rebuilding them,
+and keeping the useful parts.
+
+</details>
 
 <div align="center">
 
@@ -191,6 +225,8 @@ TASBIRKABIR / PERSONAL PROFILE
 Building things that should exist.
 </sub>
 
-</div>
+<br><br>
 
 <a href="#top">↑ back to top</a>
+
+</div>
