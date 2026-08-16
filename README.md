@@ -105,13 +105,9 @@
     width:100%;aspect-ratio:1;background:var(--accent);
     border:4px solid var(--black);box-shadow:10px 10px 0 var(--black);
     position:relative;display:flex;align-items:center;justify-content:center;
-    font-family:'Archivo Black',sans-serif;font-size:clamp(60px,14vw,120px);
     overflow:hidden;
   }
-  .hero-avatar::after{
-    content:'[ AVATAR — REPLACE ]';position:absolute;bottom:10px;right:12px;
-    font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.1em;
-  }
+  .hero-avatar img{width:100%;height:100%;object-fit:cover;}
   .hero-footer{
     display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     font-family:'Space Mono',monospace;font-size:11px;text-transform:uppercase;
@@ -164,23 +160,11 @@
   }
   .project-desc{font-size:16px;margin-top:16px;max-width:720px;line-height:1.6;}
   .project-grid{
-    display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px;
+    display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px;
     border-top:2px dashed var(--black);padding-top:20px;
   }
   .project-grid > div{font-size:14px;}
   .project-grid .meta-label{margin-bottom:2px;}
-  .project-links{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap;}
-  .project-links a{
-    font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;
-    letter-spacing:.08em;color:var(--black);text-decoration:none;
-    border:2px solid var(--black);padding:6px 14px;background:var(--card);font-weight:700;
-  }
-  .project-links a:hover{background:var(--black);color:var(--accent);}
-  .project-card.placeholder .project-name,
-  .project-card.placeholder .project-tagline,
-  .project-card.placeholder .project-desc,
-  .project-card.placeholder .project-grid > div{color:var(--muted);}
-  .project-card.placeholder .project-name{font-style:normal;}
 
   /* CURRENTLY */
   .now-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
@@ -204,25 +188,6 @@
   }
   .now-card p{font-size:14px;line-height:1.5;}
 
-  /* STACK */
-  .stack-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
-  .stack-col{
-    border:3px solid var(--black);background:var(--card);padding:22px;
-    box-shadow:8px 8px 0 var(--black);
-  }
-  .stack-col h4{
-    font-family:'Archivo Black',sans-serif;font-size:18px;letter-spacing:-.01em;
-    text-transform:uppercase;border-bottom:2px solid var(--black);
-    padding-bottom:8px;margin-bottom:14px;
-  }
-  .stack-col ul{list-style:none;}
-  .stack-col li{
-    font-family:'Space Mono',monospace;font-size:13px;padding:5px 0;
-    border-bottom:1px dashed rgba(0,0,0,.2);color:var(--muted);
-  }
-  .stack-col li:last-child{border-bottom:none;}
-  .stack-col li::before{content:'→ ';color:var(--accent-2);font-weight:700;}
-
   /* PHILOSOPHY */
   .quote-box{
     border:4px solid var(--black);background:var(--black);color:var(--paper);
@@ -238,7 +203,6 @@
     line-height:1.15;letter-spacing:-.02em;margin-top:20px;
   }
   .quote-text .hl{background:var(--accent);color:var(--black);padding:0 6px;}
-  .quote-text .strike{text-decoration:line-through;text-decoration-thickness:4px;color:var(--muted);}
   .quote-attr{
     font-family:'Space Mono',monospace;font-size:12px;text-transform:uppercase;
     letter-spacing:.15em;margin-top:30px;color:var(--accent);
@@ -270,7 +234,6 @@
   }
   .connect-card .mono{font-size:12px;text-transform:uppercase;letter-spacing:.1em;font-weight:700;}
   .connect-card .link-value{font-family:'Space Mono',monospace;font-size:14px;}
-  .connect-card.placeholder .link-value{color:var(--muted);font-style:italic;}
 
   /* FOOTER */
   .footer{
@@ -281,7 +244,7 @@
 
   /* RESPONSIVE */
   @media (max-width:800px){
-    .hero-grid,.about-grid,.now-grid,.stack-grid,.connect-grid,.activity-grid{grid-template-columns:1fr;}
+    .hero-grid,.about-grid,.now-grid,.connect-grid,.activity-grid{grid-template-columns:1fr;}
     .hero-title .block-2{margin-left:0;}
     .hero-title .block-2::before{display:none;}
     .project-grid{grid-template-columns:1fr;}
@@ -305,7 +268,6 @@
       <a href="#about">about</a>
       <a href="#work">work</a>
       <a href="#now">now</a>
-      <a href="#stack">stack</a>
       <a href="#connect">connect</a>
     </nav>
   </div>
@@ -329,7 +291,9 @@
           <a href="#work">→ See Work</a>
         </div>
       </div>
-      <div class="hero-avatar" aria-label="Avatar placeholder">TK</div>
+      <div class="hero-avatar" aria-label="Avatar">
+        <img src="https://github.com/tasbirkabir.png" alt="Tasbir Kabir">
+      </div>
     </div>
     <div class="hero-footer">
       <span>@tasbirkabir</span>
@@ -347,16 +311,14 @@
     </div>
     <div class="about-grid">
       <div class="about-text">
-        <p>I build AI products — not demos, but systems that observe, measure, and shape how information surfaces across generative AI. My main focus is <strong>Atlas One</strong>, an AI visibility &amp; discovery intelligence platform I'm building toward becoming a category-defining intelligence layer for how brands, entities, and information appear across generative systems.</p>
-        <p>I care about <strong>proprietary datasets</strong>, defensible architecture, and shipping MVPs that earn the right to grow into enterprise-grade products. Long-term thinking over feature bloat. Substance over noise.</p>
-        <p>Outside Atlas One, I experiment with developer tooling, automation, and data-driven product patterns. I treat software as a vehicle for leverage — not as an end in itself.</p>
+        <p>I build AI products — not demos, but systems. My focus is <strong>Atlas One</strong>, an AI visibility &amp; discovery intelligence platform. I care about proprietary datasets, defensible architecture, and shipping MVPs that earn the right to scale.</p>
+        <p>Long-term thinking over feature bloat. Substance over noise.</p>
       </div>
       <div class="about-meta">
         <h4>// IDENTITY</h4>
         <div class="meta-block"><span class="meta-label">Role</span><span class="meta-value">AI Consultant &amp; Entrepreneur</span></div>
         <div class="meta-block"><span class="meta-label">Focus</span><span class="meta-value">AI Visibility / GEO</span></div>
         <div class="meta-block"><span class="meta-label">Building</span><span class="meta-value">Atlas One</span></div>
-        <div class="meta-block"><span class="meta-label">Orientation</span><span class="meta-value">Product / Systems / Defensibility</span></div>
         <div class="meta-block"><span class="meta-label">Mode</span><span class="meta-value">Ship MVP → Compound</span></div>
       </div>
     </div>
@@ -374,55 +336,15 @@
     <div class="project-card featured">
       <div class="project-meta">
         <span class="tag">[001] FLAGSHIP</span>
-        <span>STATUS: IN DEVELOPMENT</span>
+        <span>STATUS: BUILDING</span>
       </div>
       <h3 class="project-name">Atlas One</h3>
       <p class="project-tagline">"See What AI Sees."</p>
-      <p class="project-desc">AI visibility &amp; discovery intelligence platform. Building the intelligence layer for how brands, entities, and information appear across generative AI systems. Proprietary datasets. Data moats. Defensible architecture over feature bloat. MVP first — enterprise capabilities later.</p>
+      <p class="project-desc">AI visibility &amp; discovery intelligence platform. Building the intelligence layer for how brands, entities, and information appear across generative AI systems. Proprietary datasets. Data moats. Defensible architecture over feature bloat.</p>
       <div class="project-grid">
-        <div><span class="meta-label">Stack</span><div>[ to be added ]</div></div>
-        <div><span class="meta-label">Status</span><div>Building</div></div>
         <div><span class="meta-label">Vision</span><div>Category-defining AI visibility layer</div></div>
+        <div><span class="meta-label">Focus</span><div>Proprietary Data / Defensibility</div></div>
       </div>
-      <div class="project-links">
-        <a href="#" target="_blank" rel="noopener">→ Repository</a>
-        <a href="#" target="_blank" rel="noopener">→ Live</a>
-        <a href="#" target="_blank" rel="noopener">→ Docs</a>
-      </div>
-    </div>
-
-    <!-- Interakt (placeholder) -->
-    <div class="project-card placeholder">
-      <div class="project-meta">
-        <span class="tag">[002] PROJECT</span>
-        <span>STATUS: [ update ]</span>
-      </div>
-      <h3 class="project-name">Interakt</h3>
-      <p class="project-tagline">[ Add latest accurate description ]</p>
-      <p class="project-desc">[ Project description pending your input. Replace this with the current positioning of Interakt / Interaktion — what it does, who it's for, and what makes it interesting. ]</p>
-      <div class="project-grid">
-        <div><span class="meta-label">Stack</span><div>[ TBD ]</div></div>
-        <div><span class="meta-label">Status</span><div>[ TBD ]</div></div>
-        <div><span class="meta-label">Repo</span><div>[ TBD ]</div></div>
-      </div>
-      <div class="project-links"><a href="#" target="_blank" rel="noopener">→ Repository</a></div>
-    </div>
-
-    <!-- Additional project slot -->
-    <div class="project-card placeholder">
-      <div class="project-meta">
-        <span class="tag">[003] PROJECT</span>
-        <span>STATUS: [ add ]</span>
-      </div>
-      <h3 class="project-name">[ Your Project ]</h3>
-      <p class="project-tagline">[ One-line description ]</p>
-      <p class="project-desc">[ Add a project you want to showcase — software, AI experiment, dev tool, or anything that reflects your builder identity. ]</p>
-      <div class="project-grid">
-        <div><span class="meta-label">Stack</span><div>[ TBD ]</div></div>
-        <div><span class="meta-label">Status</span><div>[ TBD ]</div></div>
-        <div><span class="meta-label">Repo</span><div>[ TBD ]</div></div>
-      </div>
-      <div class="project-links"><a href="#" target="_blank" rel="noopener">→ Repository</a></div>
     </div>
   </section>
 
@@ -437,57 +359,22 @@
       <div class="now-card">
         <span class="now-label">Building</span>
         <h4>Atlas One</h4>
-        <p>AI visibility &amp; discovery intelligence platform. Long-term product direction.</p>
+        <p>AI visibility &amp; discovery intelligence platform.</p>
       </div>
       <div class="now-card">
         <span class="now-label">Researching</span>
-        <h4>GEO / Generative Engine Optimization</h4>
-        <p>How information surfaces across LLMs and generative systems.</p>
+        <h4>Generative Engine Optimization</h4>
+        <p>How information surfaces across LLMs &amp; generative systems.</p>
       </div>
       <div class="now-card">
         <span class="now-label">Experimenting</span>
-        <h4>AI discovery patterns</h4>
-        <p>Datasets, retrieval signals, and entity-level visibility signals.</p>
+        <h4>AI Discovery Patterns</h4>
+        <p>Retrieval signals and entity-level visibility.</p>
       </div>
       <div class="now-card">
         <span class="now-label">Thinking about</span>
         <h4>Defensibility</h4>
-        <p>Proprietary datasets, data moats, and long-term product architecture.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- STACK -->
-  <section class="stack" id="stack">
-    <div class="section-header">
-      <span class="num">05</span>
-      <span class="title">Stack</span>
-      <span class="line"></span>
-    </div>
-    <div class="stack-grid">
-      <div class="stack-col">
-        <h4>AI / LLM</h4>
-        <ul><li>[ your stack ]</li><li>[ frameworks ]</li><li>[ models / providers ]</li></ul>
-      </div>
-      <div class="stack-col">
-        <h4>Backend</h4>
-        <ul><li>[ language ]</li><li>[ framework ]</li><li>[ runtime ]</li></ul>
-      </div>
-      <div class="stack-col">
-        <h4>Frontend</h4>
-        <ul><li>[ framework ]</li><li>[ styling ]</li><li>[ tooling ]</li></ul>
-      </div>
-      <div class="stack-col">
-        <h4>Data</h4>
-        <ul><li>[ database ]</li><li>[ vector store ]</li><li>[ pipeline ]</li></ul>
-      </div>
-      <div class="stack-col">
-        <h4>Infrastructure</h4>
-        <ul><li>[ cloud ]</li><li>[ deployment ]</li><li>[ orchestration ]</li></ul>
-      </div>
-      <div class="stack-col">
-        <h4>Automation / Tools</h4>
-        <ul><li>[ scripting ]</li><li>[ CI/CD ]</li><li>[ dev tools ]</li></ul>
+        <p>Proprietary datasets, data moats, long-term architecture.</p>
       </div>
     </div>
   </section>
@@ -495,13 +382,13 @@
   <!-- PHILOSOPHY -->
   <section class="philosophy">
     <div class="section-header">
-      <span class="num">06</span>
+      <span class="num">05</span>
       <span class="title">Builder Philosophy</span>
       <span class="line"></span>
     </div>
     <div class="quote-box">
       <div class="quote-mark">"</div>
-      <p class="quote-text">Most build for the <span class="strike">demo</span>. I build for the <span class="hl">dataset</span>. Ship the smallest thing that earns the right to exist — then defend it with data, architecture, and patience.</p>
+      <p class="quote-text">Most build for the demo. I build for the <span class="hl">dataset</span>. Ship the smallest useful thing that earns the right to exist. Build defensibility through data and architecture. Prefer substance over feature bloat.</p>
       <div class="quote-attr">— TK / Building Notes</div>
     </div>
   </section>
@@ -509,7 +396,7 @@
   <!-- GITHUB ACTIVITY -->
   <section class="activity" id="activity">
     <div class="section-header">
-      <span class="num">07</span>
+      <span class="num">06</span>
       <span class="title">GitHub Activity</span>
       <span class="line"></span>
     </div>
@@ -522,17 +409,13 @@
         <span class="activity-label">→ STREAK</span>
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=tasbirkabir&theme=default&hide_border=true" alt="GitHub Streak" loading="lazy">
       </div>
-      <div class="activity-card full">
-        <span class="activity-label">→ CONTRIBUTION GRAPH</span>
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=tasbirkabir&theme=default&hide_border=true" alt="Activity Graph" loading="lazy">
-      </div>
     </div>
   </section>
 
   <!-- CONNECT -->
   <section class="connect" id="connect">
     <div class="section-header">
-      <span class="num">08</span>
+      <span class="num">07</span>
       <span class="title">Connect</span>
       <span class="line"></span>
     </div>
@@ -545,14 +428,6 @@
         <span class="mono">→ Email</span>
         <span class="link-value">tasbir777x@gmail.com</span>
       </a>
-      <div class="connect-card placeholder">
-        <span class="mono">→ LinkedIn</span>
-        <span class="link-value">[ add url ]</span>
-      </div>
-      <div class="connect-card placeholder">
-        <span class="mono">→ Website</span>
-        <span class="link-value">[ add url ]</span>
-      </div>
     </div>
   </section>
 
