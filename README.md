@@ -1,231 +1,140 @@
-<!--
-  TASBIR KABIR — GitHub Profile README
-  Neo-Brutalist / personal builder identity
--->
-
 <a id="top"></a>
 
 <div align="center">
 
-<img
- src="./assets/tasbir-neo-brutalist-animated-banner.gif"
- width="100%"
- alt="Tasbir Kabir — Entrepreneur and AI Builder"
-/>
+# Tasbir Kabir
 
-<br><br>
+### Entrepreneur · Building AI-Native SaaS & Agentic Systems
 
-  <p>
-    <strong>Entrepreneur | Building AI-native SaaS with Agentic Engineering.</strong>
-  </p>
+<br/>
 
-  <p>
-    Building software products, experimenting with emerging AI capabilities,
-    and exploring new ways to build with agents, automation, and intelligent systems.
-  </p>
+[![Website](https://img.shields.io/badge/tasbirkabir.me-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tasbirkabir.me)
+[![X / Twitter](https://img.shields.io/badge/@tasbirrkabir-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/tasbirrkabir)
+[![LinkedIn](https://img.shields.io/badge/tasbirrkabir-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tasbirrkabir)
+[![Newsletter](https://img.shields.io/badge/12.4k+_Builders-000000?style=for-the-badge&logo=substack&logoColor=white)](https://tasbirkabir.me)
+[![Email](https://img.shields.io/badge/work@tasbirkabir.me-000000?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:work@tasbirkabir.me)
 
-  <p>
-    <a href="https://github.com/tasbirkabir">
-      <img src="https://img.shields.io/badge/GitHub-101010?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-    </a>
-  </p>
+<br/>
+
+> **`AI × Technology × Entrepreneurship × Digital Products`**
+>
+> *Building intelligent products, autonomous systems, and digital businesses designed to solve real problems and compound.*
+
+<br/>
 
 </div>
 
-01 / ABOUT
+---
 
-I'm an entrepreneur and builder focused on AI-native SaaS and the emerging
-discipline of agentic engineering.
+### `01 //` PROFILE & POSITIONING
 
-I like turning ideas into working software, testing them against reality, and
-iterating toward products that create real leverage.
+I am an entrepreneur and builder focused on **AI-native software** and **agentic engineering**. My work sits at the convergence of software architecture, autonomous workflows, and product monetization.
 
-My work sits around:
+I believe the most defensible software businesses are built from the ground up where AI is part of the core product experience—capable of understanding context, making autonomous decisions, and continuously improving over time.
 
-AI-native products
+- **Based in**: Dhaka, Bangladesh *(operating globally)*
+- **Core Loop**: `Understand the Problem` $\rightarrow$ `Build Fast & Tested` $\rightarrow$ `Ship to Reality` $\rightarrow$ `Compound Value`
+- **Newsletter**: Author of *"One framework. Every Sunday."* read by **12,400+ builders**.
 
-Agentic engineering
+---
 
-SaaS
+### `02 //` WHAT I BUILD
 
-Automation
+```
+┌───────────────────────────────┐  ┌───────────────────────────────┐
+│       01. AI-NATIVE SAAS      │  │     02. AGENTIC SYSTEMS       │
+│  Intelligent software where   │  │  Autonomous multi-step loops, │
+│  AI is the core primitive.    │  │  reasoning, & orchestration.  │
+└───────────────────────────────┘  └───────────────────────────────┘
+┌───────────────────────────────┐  ┌───────────────────────────────┐
+│  03. AUTOMATION INFRASTRUCTURE│  │     04. DIGITAL PRODUCTS      │
+│  Connected systems & APIs     │  │  Actionable playbooks, tools, │
+│  eliminating repetitive ops.  │  │  frameworks, & prompt vaults. │
+└───────────────────────────────┘  └───────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│                     05. INTERNET BUSINESSES                      │
+│       Scalable digital experiments & productized ventures.       │
+└──────────────────────────────────────────────────────────────────┘
+```
 
-Intelligent software systems
+---
 
-Developer tooling
+### `03 //` FEATURED WORK & SYSTEMS
 
-Product experimentation
+#### [Atlas One](https://tasbirkabir.me)
+> **AI Visibility & Discovery Intelligence** · *"See What AI Sees"*  
+> Platform exploring how brands, entities, and data surface across generative search engines and frontier LLMs.
 
-Build → Ship → Learn → Compound
+#### [PicCrypt](https://github.com/tasbirkabir/PicCrypt)
+> **Privacy-First Terminal Tool** · `JavaScript` · `Client-Side Security`  
+> Zero-log, darkweb-themed bulk image compressor, metadata (EXIF) wiper, and WebP conversion engine. Everything runs strictly in-browser.
 
-02 / WHAT I BUILD
+#### [TerraMind-AI](https://github.com/tasbirkabir/TerraMind-AI)
+> **Environmental Intelligence Platform** · `TypeScript` · `AI Workflows`  
+> Automated incident reporting and spatial risk analysis system.
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h3>AI-NATIVE SAAS</h3>
-      Products where AI is part of the core workflow.
-    </td>
-    <td width="25%" valign="top">
-      <h3>AGENTIC SYSTEMS</h3>
-      Agents, execution loops, automation, and AI-assisted development.
-    </td>
-    <td width="25%" valign="top">
-      <h3>PRODUCT SYSTEMS</h3>
-      Software built around useful workflows and real problems.
-    </td>
-    <td width="25%" valign="top">
-      <h3>EXPERIMENTS</h3>
-      Prototypes and ideas that can earn the right to become products.
-    </td>
-  </tr>
-</table>
+#### [PromptVault](https://github.com/tasbirkabir/PromptVault)
+> **SaaS & Prompt Operating System** · `Kotlin` · `LLM Tooling`  
+> Production-grade prompt architecture, evaluation templates, and reusable LLM workflows for builders.
 
-03 / SELECTED WORK
+---
 
-Atlas One
+### `04 //` TECHNICAL ARSENAL
 
-AI visibility & discovery intelligence
+- **AI & Agentic Systems**: Multi-Agent Orchestration, Autonomous Execution Loops, Tool Calling / Function Calling, Context Engineering, Prompt Architecture.
+- **Languages & Stacks**: TypeScript, JavaScript, Python, PHP, Kotlin, HTML5/CSS3, Tailwind CSS.
+- **Automation & Cloud Ops**: n8n, Make, REST API Design, Webhook Infrastructure, Serverless Pipelines.
+- **Product & SaaS Craft**: AI-Native UI/UX, Rapid Prototyping, Systems Architecture, Digital Product Monetization.
 
-"See What AI Sees."
+---
 
-A product direction exploring how brands, entities, and information surface
-across generative AI systems.
+### `05 //` THE BUILDER TRAJECTORY
 
-AI GEO Discovery Intelligence
+```
+Web & Marketing ──▶ AI Tools ──▶ Automation Workflows ──▶ Product Dev ──▶ AI-Native SaaS ──▶ Agentic Engineering
+```
 
-Interakt
+1. **Web Development & Marketing** — Engineered web products and growth campaigns for businesses.
+2. **AI Exploration** — Built early agentic prototypes and explored LLM capabilities.
+3. **Automation Infrastructure** — Architected connected pipelines with n8n, Make, and custom APIs.
+4. **Product Development** — Shifted from client services to proprietary, scalable software products.
+5. **AI-Native SaaS** — Built products where AI drives the core workflow rather than an auxiliary feature.
+6. **Agentic Engineering** — Scaling systems that reason, plan, and execute multi-step operations autonomously.
 
-Product / AI / software project
+---
 
-Part of my broader product-building work around software, AI, and interaction.
-
-PRODUCT AI BUILDING
-
-Daymark
-
-Software / product project
-
-Another project in my wider portfolio of product experiments and software work.
-
-PRODUCT SOFTWARE EXPERIMENT
-
-04 / CURRENTLY
-
-MODE
-
-FOCUS
-
-BUILDING
-
-AI-native SaaS
-
-EXPLORING
-
-Agentic Engineering
-
-EXPERIMENTING
-
-AI systems, automation, developer tooling
-
-THINKING ABOUT
-
-Better ways to build software with AI
-
-05 / STACK
-
-AI / LLM
-
-Generative AI · LLM tooling · Agentic workflows
-
-PRODUCT
-
-AI-native SaaS · Rapid prototyping · Product iteration
-
-ENGINEERING
-
-Automation · Backend systems · Developer tooling
-
-My stack evolves with the products I build.
-
-06 / BUILDER PHILOSOPHY
-
-<div align="center">
-
-BUILD THE THING.
-
-Ship the smallest useful version.
-
-Learn from reality.
-
-Then make the next version better than the last.
-
-</div>
-
-07 / GITHUB
+### `06 //` GITHUB ACTIVITY
 
 <div align="center">
 
 <a href="https://github.com/tasbirkabir">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=tasbirkabir&show_icons=true&hide_border=true&bg_color=00000000&title_color=101010&text_color=555555&icon_color=ff4d00"
-    alt="Tasbir Kabir's GitHub stats"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=tasbirkabir&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=94a3b8&icon_color=ff4d00" height="155" alt="Tasbir's GitHub Stats" />
 </a>
-
 <a href="https://github.com/tasbirkabir">
-  <img
-    height="180"
-    src="https://streak-stats.demolab.com?user=tasbirkabir&hide_border=true&background=00000000&ring=ff4d00&fire=ff4d00&currStreakLabel=101010&sideLabels=555555&dates=777777"
-    alt="Tasbir Kabir's GitHub streak"
-  />
+  <img src="https://streak-stats.demolab.com?user=tasbirkabir&hide_border=true&background=00000000&ring=ff4d00&fire=ff4d00&currStreakLabel=ffffff&sideLabels=94a3b8&dates=64748b" height="155" alt="Tasbir's GitHub Streak" />
 </a>
 
 </div>
 
-08 / CONNECT
+---
+
+### `07 //` CONNECT & COLLABORATE
+
+Have an AI system to build, an automation pipeline to architect, or an interesting product to discuss?
+
+- **Website**: [tasbirkabir.me](https://tasbirkabir.me)
+- **Direct Email**: [work@tasbirkabir.me](mailto:work@tasbirkabir.me)
+- **X (Twitter)**: [@tasbirrkabir](https://x.com/tasbirrkabir)
+- **LinkedIn**: [in/tasbirrkabir](https://www.linkedin.com/in/tasbirrkabir)
+
+<br/>
 
 <div align="center">
 
-<a href="https://github.com/tasbirkabir">
-  <img
-    src="https://img.shields.io/badge/GITHUB-@tasbirkabir-101010?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
-  />
-</a>
+<sub>`Build products. Experiment. Share. Scale.`</sub>  
+<sub>© 2026 Tasbir Kabir · All Systems Operational</sub>
 
-</div>
-
-LinkedIn / portfolio can be added once the exact URLs are ready.
-
-<details>
-<summary><strong>01 / A LITTLE MORE</strong></summary>
-
-<br>
-
-I'm interested in the gap between what AI can do today and
-what software products can become when AI is treated as a core system
-primitive.
-
-That means experimenting, shipping, breaking things, rebuilding them,
-and keeping the useful parts.
-
-</details>
-
-<div align="center">
-
-<sub>
-TASBIRKABIR / PERSONAL PROFILE
-</sub>
-
-<br>
-
-<sub>
-Building things that should exist.
-</sub>
-
-<br><br>
+<br/><br/>
 
 <a href="#top">↑ back to top</a>
 
