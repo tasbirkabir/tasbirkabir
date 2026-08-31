@@ -84,7 +84,7 @@
 <br/>
 
 <a href="https://github.com/tasbirkabir">
-  <img src="https://streak-stats.demolab.com?user=tasbirkabir&theme=tokyo-night&hide_border=true&background=0D1117&ring=388BFD&fire=388BFD&currStreakLabel=FFFFFF&sideLabels=94A3B8&dates=64748B" alt="Tasbir's GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=tasbirkabir&theme=tokyo-night&hide_border=true&background=0D1117&ring=388BFD&fire=388BFD&currStreakLabel=FFFFFF&sideLabels=FFFFFF&dates=94A3B8" alt="Tasbir's GitHub Streak" />
 </a>
 
 </div>
@@ -98,7 +98,7 @@
 <br/>
 
 <a href="https://github.com/tasbirkabir">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tasbirkabir&theme=tokyo-night&custom_title=tasbir.kabir's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=388BFD&point=1F6FEB&area=true&hide_border=true" width="100%" alt="Tasbir's Activity Graph" />
+  <img src="https://github-readme-activity-graph-seven.vercel.app/graph?username=tasbirkabir&theme=tokyo-night&area=true&hide_border=true&bg_color=0D1117&color=58A6FF&line=388BFD&point=1F6FEB" width="100%" alt="Tasbir's Activity Graph" />
 </a>
 
 <br/><br/>
